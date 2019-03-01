@@ -18,8 +18,10 @@ object Test extends App with Bar {
 ```
 * Works in Scala 2.12 with scalac option `-Xsource:2.11`
     * SBT project `scala212source211`
+    * https://scastie.scala-lang.org/tSN4oC8LQeambwf9SuyWew
 * Fails in Scala 2.12
     * SBT project `scala212failing`
+    * https://scastie.scala-lang.org/jSUquLBxQLevd1aSRLXn4Q
     
 ### Example Output:
 ```
@@ -56,8 +58,10 @@ object Test extends App {
 ```
 * Works in Scala 2.12
     * SBT project `scala212working`
+    * https://scastie.scala-lang.org/1aPySn1KS424jVKpJKPGEg
 * Fails in Dotty
     * SBT project `dottyfailing`
+    * https://scastie.scala-lang.org/yNq1m554SQGvvz0k4gOQ4A
 
 ### Example Output:
 ```
